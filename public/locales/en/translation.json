@@ -1,0 +1,85 @@
+{
+  "login": {
+    "title": "Login",
+    "createAccountTitle": "Create Account",
+    "subtitle": "Journalist Platform",
+    "fullNameLabel": "Full Name",
+    "emailLabel": "Email Address",
+    "passwordLabel": "Password",
+    "loginButton": "Log In",
+    "signupButton": "Sign Up",
+    "noAccountPrompt": "Don't have an account?",
+    "haveAccountPrompt": "Already have an account?",
+    "errorNameEmpty": "Full name is required.",
+    "errorInvalidEmail": "Invalid email address.",
+    "errorUserNotFound": "No account found with this email or password.",
+    "errorWrongPassword": "Incorrect password.",
+    "errorEmailInUse": "This email address is already in use.",
+    "errorWeakPassword": "Password should be at least 6 characters.",
+    "errorGeneric": "An error occurred. Please try again."
+  },
+  "dashboard": {
+    "navHome": "Home",
+    "navHistory": "History",
+    "navProfile": "Profile",
+    "logoutButton": "Log Out"
+  },
+  "home": {
+    "greeting": "Hello, {{name}}!",
+    "welcome": "Welcome to your dashboard.",
+    "writeArticleButton": "Write a New Article",
+    "readyTitle": "Ready to start?",
+    "readyText": "Click the button above to start writing your next masterpiece. Your drafts and published articles will appear in the 'History' section."
+  },
+  "history": {
+    "title": "Article History",
+    "subtitle": "Manage your published articles and drafts.",
+    "loading": "Loading articles...",
+    "noArticles": "You haven't written any articles yet.",
+    "untitled": "Untitled",
+    "lastModified": "Last modified",
+    "published": "Published",
+    "draft": "Draft",
+    "confirmDeleteTitle": "Confirm Deletion",
+    "confirmDeleteMessage": "Are you sure you want to delete this article? This action cannot be undone.",
+    "deleteButton": "Delete",
+    "cancelButton": "Cancel",
+    "editAria": "Edit article",
+    "deleteAria": "Delete article"
+  },
+  "profile": {
+    "title": "Profile Settings",
+    "subtitle": "Manage your personal information.",
+    "errorNameEmpty": "Name cannot be empty.",
+    "successProfileUpdate": "Profile updated successfully!",
+    "errorProfileUpdate": "Error updating profile.",
+    "errorPasswordFields": "Please fill in all password fields.",
+    "successPasswordUpdate": "Password updated successfully!",
+    "errorWrongPassword": "Incorrect current password.",
+    "generalInfoTitle": "General Information",
+    "updateProfileButton": "Update Profile",
+    "changePasswordTitle": "Change Password",
+    "currentPasswordLabel": "Current Password",
+    "newPasswordLabel": "New Password",
+    "changePasswordButton": "Change Password"
+  },
+  "editor": {
+    "backToHistory": "← Back to History",
+    "editTitle": "Edit Article",
+    "newTitle": "New Article",
+    "titlePlaceholder": "Article Title",
+    "contentPlaceholder": "Start writing your story...",
+    "saving": "Saving...",
+    "lastSaved": "Last saved at",
+    "saveDraftButton": "Save Draft",
+    "publishButton": "Publish",
+    "errorTitleEmpty": "Article title is required.",
+    "errorSaving": "An error occurred while saving.",
+    "errorModalTitle": "Validation Error",
+    "errorModalConfirm": "Understood"
+  },
+  "modal": {
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  }
+}

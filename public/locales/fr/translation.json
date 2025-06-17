@@ -1,0 +1,85 @@
+{
+  "login": {
+    "title": "Connexion",
+    "createAccountTitle": "Créer un compte",
+    "subtitle": "Plateforme pour journalistes",
+    "fullNameLabel": "Nom complet",
+    "emailLabel": "Adresse e-mail",
+    "passwordLabel": "Mot de passe",
+    "loginButton": "Se connecter",
+    "signupButton": "S'inscrire",
+    "noAccountPrompt": "Vous n'avez pas de compte ?",
+    "haveAccountPrompt": "Vous avez déjà un compte ?",
+    "errorNameEmpty": "Le nom est requis.",
+    "errorInvalidEmail": "Adresse e-mail invalide.",
+    "errorUserNotFound": "Aucun compte trouvé avec cet e-mail ou mot de passe.",
+    "errorWrongPassword": "Mot de passe incorrect.",
+    "errorEmailInUse": "Cette adresse e-mail est déjà utilisée.",
+    "errorWeakPassword": "Le mot de passe doit contenir au moins 6 caractères.",
+    "errorGeneric": "Une erreur est survenue. Veuillez réessayer."
+  },
+  "dashboard": {
+    "navHome": "Accueil",
+    "navHistory": "Historique",
+    "navProfile": "Profil",
+    "logoutButton": "Déconnexion"
+  },
+  "home": {
+    "greeting": "Bonjour, {{name}} !",
+    "welcome": "Bienvenue sur votre tableau de bord.",
+    "writeArticleButton": "Écrire un nouvel article",
+    "readyTitle": "Prêt à commencer ?",
+    "readyText": "Cliquez sur le bouton ci-dessus pour commencer à rédiger votre prochain chef-d'œuvre. Vos brouillons et articles publiés apparaîtront dans la section 'Historique'."
+  },
+  "history": {
+    "title": "Historique des articles",
+    "subtitle": "Gérez vos articles publiés et vos brouillons.",
+    "loading": "Chargement des articles...",
+    "noArticles": "Vous n'avez encore écrit aucun article.",
+    "untitled": "Sans titre",
+    "lastModified": "Dernière modification",
+    "published": "Publié",
+    "draft": "Brouillon",
+    "confirmDeleteTitle": "Confirmer la suppression",
+    "confirmDeleteMessage": "Êtes-vous sûr de vouloir supprimer cet article ? Cette action est irréversible.",
+    "deleteButton": "Supprimer",
+    "cancelButton": "Annuler",
+    "editAria": "Modifier l'article",
+    "deleteAria": "Supprimer l'article"
+  },
+  "profile": {
+    "title": "Paramètres du profil",
+    "subtitle": "Gérez vos informations personnelles.",
+    "errorNameEmpty": "Le nom ne peut pas être vide.",
+    "successProfileUpdate": "Profil mis à jour avec succès !",
+    "errorProfileUpdate": "Erreur lors de la mise à jour du profil.",
+    "errorPasswordFields": "Veuillez remplir tous les champs de mot de passe.",
+    "successPasswordUpdate": "Mot de passe mis à jour avec succès !",
+    "errorWrongPassword": "Mot de passe actuel incorrect.",
+    "generalInfoTitle": "Informations générales",
+    "updateProfileButton": "Mettre à jour le profil",
+    "changePasswordTitle": "Changer le mot de passe",
+    "currentPasswordLabel": "Mot de passe actuel",
+    "newPasswordLabel": "Nouveau mot de passe",
+    "changePasswordButton": "Changer le mot de passe"
+  },
+  "editor": {
+    "backToHistory": "← Retour à l'historique",
+    "editTitle": "Modifier l'article",
+    "newTitle": "Nouvel article",
+    "titlePlaceholder": "Titre de l'article",
+    "contentPlaceholder": "Commencez à écrire votre histoire...",
+    "saving": "Enregistrement...",
+    "lastSaved": "Dernière sauvegarde à",
+    "saveDraftButton": "Enregistrer le brouillon",
+    "publishButton": "Publier",
+    "errorTitleEmpty": "Le titre de l'article est obligatoire.",
+    "errorSaving": "Une erreur est survenue lors de la sauvegarde.",
+    "errorModalTitle": "Erreur de validation",
+    "errorModalConfirm": "Compris"
+  },
+  "modal": {
+    "confirm": "Confirmer",
+    "cancel": "Annuler"
+  }
+}

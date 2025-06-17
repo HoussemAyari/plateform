@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Le reste de vos styles ici... */
+
+/* Appliquer une police par défaut au corps du document */
+body {
+  font-family: 'Inter', sans-serif; /* Assurez-vous d'importer cette police dans votre public/index.html */
+}
+
+/* Styles pour React Quill.
+  La classe .ql-container a une bordure par défaut que nous pouvons conserver.
+  Nous allons juste nous assurer qu'il a une hauteur minimale pour une meilleure expérience utilisateur.
+*/
+.ql-editor {
+  min-height: 24rem; /* 384px */
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Personnaliser les placeholders */
+.ql-editor.ql-blank::before {
+  font-style: italic;
+  color: #a0aec0; /* gray-500 */
+}
